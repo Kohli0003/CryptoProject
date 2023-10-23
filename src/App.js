@@ -35,16 +35,14 @@ const App = () => {
                     
                 </div>
             </Layout>
-            <div className="footer" level={5} style={{color:'white',textAlign:'center'}}>
-        <Typography.Title>
+            <div className="footer">
+        <Typography.Title level={5} style={{color:'white',textAlign:'center'}}>
             Crypto World <br/>
             All Rights Reserved
         </Typography.Title>
         <Space>
             <Link to="/">Home</Link>
             <Link to="/">Exchanges</Link>
-            <Link to="/">CryptoDetails</Link>
-            <Link to="/">CryptoCurrencies</Link>
             <Link to="/">News</Link>
         </Space>
         </div>
